@@ -1,27 +1,13 @@
-
-import React, { useEffect } from 'react';
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 
 const Home = () => {
-    const navigate = useNavigate();
-
-useEffect(() => {
-  navigate("/");
-}, []);
   return (
-    
     <div className="home">
 
-     
-    <section className="hero">
-  {/* <div className="hero-content">
-    <h1>🏏 Premium Cricket Store</h1>
-    <p>Buy Professional Bats, Balls, Jerseys & Accessories</p>
-    <button>Shop Now</button>
-  </div> */}
-</section>
+      <section className="hero">
+        {/* Banner Image CSS se aa rahi hai */}
+      </section>
 
-     
       <section className="categories">
         <h2>Shop by Category</h2>
 
@@ -35,13 +21,11 @@ useEffect(() => {
         </div>
       </section>
 
-     
       <section className="offer">
         <h2>🔥 20% OFF on Premium Cricket Bats</h2>
         <p>Limited time offer — Grab your favorite bat now!</p>
       </section>
 
-     
       <section className="why">
         <h2>Why Choose Us?</h2>
 
