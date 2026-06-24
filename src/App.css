@@ -484,16 +484,17 @@ nav a:hover {
 
 
 .checkout-section {
-   background:
+   /* background:
     linear-gradient(rgba(0,0,0,0.5),
                     rgba(0,0,0,0.5)),
     url("./data/check.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   padding: 70px 20px;
   background: #f7f7f7;
   text-align: center;
+  
 }
 
 /* TITLE */
