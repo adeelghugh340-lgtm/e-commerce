@@ -1,7 +1,7 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+
 const Home = () => {
     const navigate = useNavigate();
 

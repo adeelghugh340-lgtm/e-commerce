@@ -5,7 +5,7 @@ const Checkout = ({ cartItems, setOrders }) => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
-  const [payment, setPayment] = useState(""); // 👈 NEW
+  const [payment, setPayment] = useState(""); 
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
@@ -112,7 +112,7 @@ const total = cartItems.reduce((sum, item) => {
           onChange={(e) => setAddress(e.target.value)}
         />
 
-      {/* 🟢 PAYMENT INTERFACE */}
+      {/*  PAYMENT INTERFACE */}
 <div className="payment">
 
   <h3>Payment Method</h3>
